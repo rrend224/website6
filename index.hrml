@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NW レジデンシャル リフォーム</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-ja-wix-website-template-view-html-2746-2025-05-05-17_04_21.png-0pcqemeodKWIeSDBcijk1KfWH69Ht1.jpeg" alt="WIX" class="wix-logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">ホーム</a></li>
+                <li><a href="#">サービス</a></li>
+                <li><a href="#">会社概要</a></li>
+                <li><a href="#">実績</a></li>
+                <li><a href="#">お客様の声</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        <div class="nav-buttons">
+            <button class="login-btn">ログイン</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>NW レジデンシャル リフォーム</h1>
+            <p>大切なお住まいを美しく保ちさせる</p>
+        </div>
+    </section>
+
+    <!-- Social Links -->
+    <div class="social-links">
+        <a href="#" class="social-link">f</a>
+        <a href="#" class="social-link">in</a>
+        <a href="#" class="social-link">b</a>
+    </div>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="services-container">
+            <div class="services-image">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-ja-wix-website-template-view-html-2746-2025-05-05-17_04_21.png-0pcqemeodKWIeSDBcijk1KfWH69Ht1.jpeg" alt="Workers renovating">
+            </div>
+            <div class="services-content">
+                <h2>サービス</h2>
+                <ul>
+                    <li>• 新築リフォーム</li>
+                    <li>• 住宅リフォーム</li>
+                    <li>• 商業リフォーム</li>
+                    <li>• 内装リフォーム</li>
+                    <li>• フローリング</li>
+                </ul>
+                <button class="brown-btn">詳細はこちら</button>
+            </div>
+        </div>
+
+        <!-- Service Icons -->
+        <div class="service-icons">
+            <div class="icon-box">
+                <i class="fas fa-home"></i>
+                <p>豊富な<br>実績と経験</p>
+            </div>
+            <div class="icon-box">
+                <i class="fas fa-tools"></i>
+                <p>優れた技術の<br>職人</p>
+            </div>
+            <div class="icon-box">
+                <i class="fas fa-clipboard-list"></i>
+                <p>丁寧な<br>施工と管理</p>
+            </div>
+            <div class="icon-box">
+                <i class="fas fa-award"></i>
+                <p>特別保証で<br>安心と信頼</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Overview -->
+    <section class="company">
+        <div class="company-container">
+            <div class="company-content">
+                <h2>会社概要</h2>
+                <h3>NW レジデンシャル<br>リフォーム</h3>
+                <p>
+                    当社は創業以来、「お客様の理想を」をモットーとする、これまでのリフォームにとらわれない発想、確かなスキルでお客様のご要望を実現してきました。住宅リフォームから商業施設まで、幅広い分野で高品質なサービスをご提供しています。
+                </p>
+            </div>
+            <div class="company-image">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-ja-wix-website-template-view-html-2746-2025-05-05-17_04_21.png-0pcqemeodKWIeSDBcijk1KfWH69Ht1.jpeg" alt="Workers inspecting renovation">
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Projects -->
+    <section class="projects">
+        <h2>最新の事例</h2>
+        <div class="project-gallery">
+            <div class="gallery-item large">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-ja-wix-website-template-view-html-2746-2025-05-05-17_04_21.png-0pcqemeodKWIeSDBcijk1KfWH69Ht1.jpeg" alt="Project 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-ja-wix-website-template-view-html-2746-2025-05-05-17_04_21.png-0pcqemeodKWIeSDBcijk1KfWH69Ht1.jpeg" alt="Project 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-ja-wix-website-template-view-html-2746-2025-05-05-17_04_21.png-0pcqemeodKWIeSDBcijk1KfWH69Ht1.jpeg" alt="Project 3">
+            </div>
+            <div class="gallery-item">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-ja-wix-website-template-view-html-2746-2025-05-05-17_04_21.png-0pcqemeodKWIeSDBcijk1KfWH69Ht1.jpeg" alt="Project 4">
+            </div>
+            <div class="gallery-item">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/screencapture-ja-wix-website-template-view-html-2746-2025-05-05-17_04_21.png-0pcqemeodKWIeSDBcijk1KfWH69Ht1.jpeg" alt="Project 5">
+            </div>
+        </div>
+        <button class="brown-btn">もっと見る</button>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>お客様の声</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>「スタッフの皆さんの対応で安心してリフォームを任せることができました。細かい要望にも丁寧に対応していただき、理想通りの住まいになりました！」</p>
+                <p class="author">松本 博</p>
+            </div>
+            <div class="testimonial">
+                <p>「スタッフの皆さんの対応で安心してリフォームを任せることができました。細かい要望にも丁寧に対応していただき、理想通りの住まいになりました！」</p>
+                <p class="author">宮沢 博士夫妻</p>
+            </div>
+            <div class="testimonial">
+                <p>「スタッフの皆さんの対応で安心してリフォームを任せることができました。細かい要望にも丁寧に対応していただき、理想通りの住まいになりました！」</p>
+                <p class="author">木村 季彦様</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact">
+        <h2>お問い合わせ</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>東京都渋谷区神宮前X-XX-XX</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@nw-reform.jp</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>03-XXXX-XXXX</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="お名前">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="メールアドレス">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="メッセージ"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">送信する</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2023 NW レジデンシャル リフォーム - All Rights Reserved</p>
+            <p>Proudly created with Wix.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
