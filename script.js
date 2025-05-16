@@ -22,7 +22,12 @@ document.addEventListener('DOMContentLoaded', function() {
             this.classList.add('active');
         });
     });
-    
+    const hamburger = document.querySelector('.hamburger');
+const nav = document.querySelector('nav');
+
+hamburger.addEventListener('click', () => {
+    nav.classList.toggle('active');
+});
     // Header scroll effect
     const header = document.querySelector('header');
     
