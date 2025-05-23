@@ -11,20 +11,7 @@ body {
     color: #ffffff;
     line-height: 1.6;
 }
-.hamburger {
-    display: none;
-    cursor: pointer;
-    font-size: 1.8rem;
-    color: #333;
-}
 
-nav ul {
-    display: flex;
-    gap: 1.5rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 h1, h2, h3 {
     font-weight: 300;
 }
@@ -69,10 +56,20 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    transition: background-color 0.3s;
 }
 
 .logo img {
     height: 20px;
+}
+
+/* ハンバーガーメニュー */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ffffff;
+    z-index: 1001;
 }
 
 nav ul {
@@ -111,6 +108,7 @@ nav ul li a:hover, nav ul li a.active {
     justify-content: center;
     text-align: center;
     position: relative;
+    margin-top: 60px; /* ヘッダーの高さ分のマージン */
 }
 
 .hero::after {
@@ -439,16 +437,49 @@ footer {
         grid-column: span 1;
         grid-row: span 1;
     }
+    
+    .social-links {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        padding: 15px;
+    /* ハンバーガーメニュー表示 */
+    .hamburger {
+        display: block;
+    }
+    
+    nav {
+        position: fixed;
+        top: 0;
+        right: -250px; /* 初期状態では画面外に */
+        width: 250px;
+        height: 100vh;
+        background-color: #1a1a1a;
+        padding-top: 70px;
+        transition: right 0.3s ease;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    nav.active {
+        right: 0; /* メニュー表示時 */
     }
     
     nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
         margin: 15px 0;
+    }
+    
+    nav ul li a {
+        font-size: 16px;
+    }
+    
+    .nav-buttons {
+        display: none;
     }
     
     .hero h1 {
@@ -471,51 +502,29 @@ footer {
         grid-template-columns: 1fr;
     }
     
+    .testimonial-container {
+        flex-direction: column;
+    }
+    
     .testimonial {
         margin: 15px 0;
     }
 }
 
 @media (max-width: 576px) {
-    nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    nav ul li {
-        margin: 5px 0;
-    }
-    
     .icon-box {
         flex: 0 0 100%;
     }
-}
-@media screen and (max-width: 768px) {
-    .hamburger {
-        display: block;
+    
+    .services-content, .company-content {
+        padding: 20px;
     }
-
-    nav {
-        position: absolute;
-        top: 70px;
-        right: 0;
-        background-color: white;
-        width: 200px;
-        border-left: 1px solid #ccc;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in-out;
+    
+    .hero h1 {
+        font-size: 28px;
     }
-
-    nav.active {
-        transform: translateX(0);
-    }
-
-    nav ul {
-        flex-direction: column;
-        padding: 1rem;
-    }
-
-    .nav-buttons {
-        display: none;
+    
+    .hero p {
+        font-size: 16px;
     }
 }
